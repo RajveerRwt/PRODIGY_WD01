@@ -1,0 +1,64 @@
+header{
+    height: 100vh;
+    width:100%;
+    background:url(bus.jpg);
+    background-size: cover;
+   
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width:100%;
+    border: rgb(14, 11, 11) solid 4px;
+    background-color: black;
+    overflow: hidden;
+   
+
+}
+
+.logo{
+   font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: blanchedalmond;
+ 
+}
+#menu:hover{
+    background-color: rgb(202, 190, 60);
+}
+.menu a{
+  
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    padding: 30px 20px;
+}
+   
+.offer{
+    color:rgb(186, 0, 0);
+    font-size:28px ;
+    font-family:'Times New Roman', Times, serif;
+    border: black solid 2px;
+    text-align: center;
+}
+.button{
+    color: rgb(18, 14, 14);
+    padding: 8px;
+    background:orange;
+}
+.text{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    font-style: oblique;
+  
+
+}
